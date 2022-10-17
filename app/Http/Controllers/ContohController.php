@@ -8,11 +8,9 @@ class ContohController extends Controller
 {
     public function biodata()
     {
-        echo "<h1>Biodata Mahasiswa</h1>";
-        echo "NIM : <strong>nim anda</strong><br/>";
-        echo "Nama : <strong>nama anda</strong><br/>";
-        echo "Email : <strong>email anda</strong><br/>";
-        echo "Alamat : <strong>alamat anda</strong><br/>";
+        echo "<h1>Perkenalkan</h1>";
+        echo "Nama Saya Ade Hendini<br/>
+        Saya tinggal di Pontianak, Kalimantan Barat";
     }
 
     public function dataDiri()
