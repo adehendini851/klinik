@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ContohController;
+use App\Http\Controllers\MatematikaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,3 +22,4 @@ Route::get('/', function () {
 Route::get('/biodata-diri', [ContohController::class, 'biodata']);
 Route::get('/biodata', [ContohController::class, 'dataDiri']);
 Route::get('/profil', [ContohController::class, 'profil']);
+Route::get('/matematika/{nilai1}/{nilai2}', [MatematikaController::class, 'index']);
