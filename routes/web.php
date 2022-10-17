@@ -23,3 +23,5 @@ Route::get('/biodata-diri', [ContohController::class, 'biodata']);
 Route::get('/biodata', [ContohController::class, 'dataDiri']);
 Route::get('/profil', [ContohController::class, 'profil']);
 Route::get('/matematika/{nilai1}/{nilai2}', [MatematikaController::class, 'index']);
+Route::get('/matematika', [MatematikaController::class, 'operasi']);
+Route::post('/matematika', [MatematikaController::class, 'hasil']);
